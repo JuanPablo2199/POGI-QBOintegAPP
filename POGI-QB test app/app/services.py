@@ -5,9 +5,9 @@ import json
 import sys
 
 def qbo_api_call(access_token, realm_id):
-        pogi_url = "https://pogi-alpha.simplyrfid.com/api" # Insert your Pogi server URL here
-        user_id = "johnpaul.pineda@simplyrfid.com"  # Insert your Pogi user ID here
-        user_pwd = "ThisIsMySecurePassword33!" # Insert your Pogi password here
+        pogi_url = "" # Insert your Pogi server URL here
+        user_id = ""  # Insert your Pogi user ID here
+        user_pwd = "" # Insert your Pogi password here
 
         if not user_id or not user_pwd:
             print("You'll need a valid URL, user id and password to connect to PogiAPI")
@@ -56,7 +56,7 @@ def qbo_api_call(access_token, realm_id):
             "toTime": "",
             "marker": "",
             "event": "present",
-            "zone": "JP Test",
+            "zone": "",
             "limit": 1000,
             "offSet": 0,
             "currentLocation": "on",
